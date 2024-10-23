@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="game-container">
+        <p class="word-display" id="word-display">_ _ _ _ _ _ _ _ _ _</p>
+        <p class="attempts-display" id="attempts-display">Attempts left: 6</p>
+        <div class="input-container">
+            <input type="text" id="letter-input" maxlength="1">
+            <button onclick="makeGuessUI()">Guess</button>
+        </div>
+        <p class="error-text" id="error-text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
